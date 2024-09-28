@@ -150,6 +150,7 @@ while True:
     else:
         numero_vidas = numero_vidas - 1
 
+# falta agregar las palabras con varias letras
     if numero_vidas == 0:
         print("Fin del juego te quedaste sin vidas")
         print(f"La palabra era: {palabra_secreta}")
